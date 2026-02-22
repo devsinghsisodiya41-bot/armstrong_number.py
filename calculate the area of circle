@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+  int l,b,a;
+  printf("enter the value of l,b"
+    scanf("%d%d"&l,&b);
+  printf("calculate the area of %d")
+    area=l*b;
+  return 0;
+} 
