@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int time;
+printf("enter the number between 1 to 24");
+scanf("%d",&time);
+if(time>=5&&time<12)
+{
+printf("good morning\n");
+}
+else if (time>=12&&time<17)
+{
+printf("afternoon\n");
+}
+else if (time>=17&&time<21)
+{
+printf("evening/n");
+}
+else 
+{
+printf("good night/n");
+}
+return 0;
+}
