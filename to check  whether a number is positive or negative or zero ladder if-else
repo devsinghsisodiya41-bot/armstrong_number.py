@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+int num;
+printf("enter the number");
+scanf("%d",&num);
+if (num>0)
+{
+printf("your value is positive");
+}
+else if (num<0)
+{
+printf("your value is negative");
+}
+else 
+{
+printf("you pressed zreo button");
+}
+return 0;
+}
