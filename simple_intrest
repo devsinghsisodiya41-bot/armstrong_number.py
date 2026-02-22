@@ -1,0 +1,20 @@
+#include<stdio.h>
+float simple_intrest(int p,int r,float t)
+{
+float si=(float)(p*r*t)/100
+return si;
+}
+int main()
+{
+int p,r;
+float t;
+printf("enter the value of p");
+scanf("%d",&p);
+printf("enter the value of r");
+scanf("%d",&t);
+print("enter the value of t");
+scanf("%f",&t);
+float answer=simple intrest(p,r,t)
+printf("%f",answer);
+return 0;
+}
