@@ -1,0 +1,35 @@
+#include<stdio.h>
+void main()
+{
+int num,number;
+char add;
+printf("enter any two number");
+scanf("%d%d",&num,&number);
+printf("press+ for addition");
+printf("press - for substraction");
+printf("press * for multiply");
+printf("press / for divide");
+fflush(stdin);
+scanf("%c",&add);
+if(add=='+')
+{
+printf("your addition is %d",num+number);
+}
+else if(add=='-')
+{
+printf("your substraction is %d",num-number);
+}
+else if(add=='*')
+{
+printf("your multiply is %d",num*number);
+}
+else if (add=="/")
+{
+printf("your divide is %d",num/number);
+}
+else
+{
+printf("please enter vaild the symbol");
+}
+return 0;
+}
