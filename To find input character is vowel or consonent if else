@@ -1,0 +1,31 @@
+#include<stdio.h>
+void main(){
+char vovel;
+printf("enter alphabet between a to z");
+scanf("%c",&vovel);
+if(vovel=='a')
+{
+    printf("you type vovel");
+}
+else if(vovel=='e')
+{
+    printf("you type vovel");
+}
+else if(vovel=='i')
+{
+    printf("you type vovel");
+}
+else if(vovel=='o')
+{
+    printf("you type vovel");
+}
+else if(vovel=='u')
+{
+    printf("you type vovel");
+}
+else
+{
+    printf("you type consonent");
+}
+return 0;
+}
