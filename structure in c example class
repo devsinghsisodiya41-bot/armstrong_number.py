@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+struct stud_record
+{
+    char name[25];
+    char cls[5];
+    int roll_no;
+};
+
+int main()
+{
+    struct stud_record student1, student2;
+     printf("Enter name: ");
+    scanf("%s", student1.name);
+    printf("Enter class: ");
+    scanf("%s", student1.cls);
+    printf("Enter roll_no: ");
+    scanf("%d", &student1.roll_no);
+    printf("\n");
+    printf("Enter name: ");
+    scanf("%s", student2.name);
+    printf("Enter class: ");
+    scanf("%s", student2.cls);
+    printf("Enter roll_no: ");
+    scanf("%d", &student2.roll_no);
+    printf("\n\n");
+    printf("RECORD 1\nName: %s\nClass: %s\n", student1.name, student1.cls);
+    printf("Roll_no: %d\n\n", student1.roll_no);
+    printf("RECORD 2\nName: %s\nClass: %s\n", student2.name, student2.cls);
+    printf("Roll_no: %d\n", student2.roll_no);
+    return 0;
+}
