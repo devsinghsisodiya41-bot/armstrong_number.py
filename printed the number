@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int n=1234;
+    //\\for reference
+    printf("0123456789012345678901234567890\n");
+    //with is less then field 
+   printf("number %d printed now.\n",n);
+    printf("number %2d printed now.\n",n);
+    printf("number %4d printed now.\n",n);
+    
+    // with is more then field  
+    printf("number %6d printed now.\n",n);
+    printf("number %9d printed now.\n",n);
+    
+    //assign a(-) sign
+    printf("number %-9d printed now.\n",n);
+    printf("number %-6d printed now.\n",n);
+    printf("number %-4d printed now.\n",n);
+    return 0;
+}
