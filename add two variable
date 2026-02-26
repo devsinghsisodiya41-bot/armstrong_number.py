@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int num1,num2,total;
+    num1=12;
+    num2=10;
+    total=num1+num2;
+    printf("this program does total of two number.\n");
+    printf("number are %d and %d.\n",num1,num2);
+    printf("total is %d.",total);
+    return 0;
+}
